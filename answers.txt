@@ -1,0 +1,24 @@
+
+How does the waterfall methodology differ from agile?
+
+The Waterfall model is the most intuitive model, its activities in the model flow from one to the other. The important part of this model is that you cannot move on to the next activity util the current one is completed .This means that planning is vital before you start the process, you need to clearly layout the plan outlining which activities will be done and when. This makes the Waterfall Model the ideal model for software that focuses on safety or security. Making changes after one phase is difficult and costly. There's also very little customer involvement and feedback and its delivery time is long as the entire project must be completed before delivery.
+Agile model is a combination of iterative and incremental model. It is suitable for a rapid changing environment where everything is changing quickly therefore agile developers need to keep up with the ever changing demands of the tech industry. lt also allows developers to release programs quickly and make changes easily, at any stage in the development process and cost effectively. lt also allows the developers to work closely with their client to ensure feedback and subsequent changes are swift. Its delivery time is very short.
+
+“AgileManifesto”.
+
+Working software over comprehensive documentation can get the software in trouble. This is because documentation is equally important and ignoring documentation can cause problems in the long run. Clear documentation helps to understand the code and maintenance. New team members can easily be updated with clear documentation so finding the right balance is important.
+
+Describe the agile method in your own words.
+Agile method is used in software development and it enables teams to quickly adapt to changing project requirements and deliver high-quality results within shorter timeframes. The method breaks big projects into smaller chunks. It prioritizes teamwork, customer satisfaction through constant feedback from customer. It is suitable for quick changing environments as the developers can quickly change and adapt to customers need at any stage of the development process. Delivery time is very short.
+
+Why do requirements change so much
+
+Requirements change so much due to changes in the market trends or tech. Changes in the market make the customer change their requirements to suit what is happening in the market so as to have a competitive edge. Limited Budget or changes in the budget can make the customer to change the requirements to either downgrade or upgrade. Changes in the requirements itself by stakeholders can cause the requirements to change as stakeholders might have a new perspective. Changes in the delivery date can also cause changes in the requirements. Poorly documented requirements at the beginning of the project can cause the reequipments to change so much. 
+
+Explain why first testing project features helps the programmer to develop a better understanding of the system requirments.
+
+By testing individual features, the programmer gains insights into how each component behaves. This helps them understand the system’s requirements more thoroughly. For example, they can identify edge cases, unexpected behavior, and potential issues related to specific features. Testing ensures that each feature works as intended. It validates that the implementation aligns with the requirements and verifies that the feature meets user expectations. This process helps catch defects early, preventing them from propagating to other parts of the system. Testing project features provides feedback to developers. When a feature doesn’t behave as expected, it prompts investigation and debugging. This iterative process helps refine the implementation and ensures that the final product meets quality standards. Testing helps programmers document how each feature should work. This documentation becomes essential for end-users, support teams, and future developers. Clear understanding of features aids in creating accurate user guides and troubleshooting resources.
+In summary, testing individual features provides valuable insights, improves code quality, and contributes to a better understanding of the system’s behavior and requirements.
+
+
+

@@ -1,0 +1,51 @@
+<!-- DOCTYPE is the browser which html use-->
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Title of the CV -->
+    <title>Online CV</title>
+</head>
+
+<body>
+    <!-- Details about CV is kept first name,description and contact details-->
+    <h1>Mandissah R Malanda</h1>
+    <img src ="image/Photo.png" alt="My Photo">
+    <!-- Description of myself-->
+    <p>My name is Mandissah R Malanda. l am a self driven software tester with 
+        5 years experience. l am a qualified Sap hr consultant.</p>
+    <p>Enthusiastic about going to the gym, hiking and running. </p>
+    <h2>Contact Details</h2>
+    <ul>
+        <li>Name: Mandissah R Malanda</li>
+        <li>Email: mchipepera2015@gmail.com</li>
+        <li>Phone: +27 78 414 0972</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/mandychips">LinkedIn Profile</a>
+    </ul>
+    <h2>Skills and Competencies</h2>
+    <ul>
+        <li>Proficient in SAP, Python. Strong problem_solving capabilities.</li>
+    </ul>
+    <h2>Education</h2>
+    <p>
+        l have a degree in Informatics from UNISA. 
+        l am also a qualified SAP HR Consultant.
+        l am also certified in Software Testing.
+    </p>
+    <h2>Work Experience</h2>
+    <p> Worked as a Software Tester for MBC Consulting.
+    </p>
+    <!--Search form (GET) and Contact form (POST)-->
+    <form action="search-results.html" method="get">
+        <input type="text" name="search" placeholder="Search keywords">
+        <button type="submit">Search</button>
+    </form>
+    <form action="contact.php" method="post">
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</body>
+
+</html>

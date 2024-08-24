@@ -1,0 +1,59 @@
+Briefly describe possible quality standards that might be used for these real-world products:
+○Mobile game app
+Security
+Mobile gaming app must have a security. This is because gamers enter their private information and so the app must protect the user information and adhere to privacy guidelines. The app must also be able to identify any security vulnerabilities and protect itself from them.
+Efficiency
+Mobile games must be fast and efficient. They must also be stable and free from crashes
+Usability
+the user must be able to use the app without any difficulties'. The mobile interface and gameplay must be satisfying to the user.
+Learnability
+Mobile games app must be easy to learn for new users therefore the  must be helpful tooltips and guidelines to follow.
+
+○Banking application
+Security
+Banking App must Protect sensitive data for example account numbers and personal information from unauthorized access therefore its important to Implement encryption, authentication, and authorization mechanisms.
+Reliability
+Banking App must Ensure the app functions consistently without unexpected failures and Handle errors gracefully and provide informative messages to users.
+Usability
+Banking Apps must Prioritize user experience with intuitive interfaces therefore Conducting usability testing and gather feedback will increase usability of the app.
+Learnability:
+Banking Apps must be intuitive for new users. Provide helpful tooltips and guides for new users to follow
+
+○Database for a medical organisation
+Security
+Patient Data Protection must safeguard sensitive patient information. its important to Implement encryption, access controls, and audit logs to safeguard patient information
+Reliability
+Medical systems must be available round-the-clock. Emergency situation must be handled effectively.
+Learnability
+Medical staff must be able to quickly learn and use the system therefore training is crucial
+
+●Explain why a high-quality software process should lead to high-quality software products. Discuss possible problems with this system of quality management.
+
+High-Quality Software Process ensures that software products meet required standards and fulfill user expectations through techniques like quality planning, control, and assurance this should lead to high quality software products.
+Advantages
+There is increased customer satisfaction by delivering software that meets or exceeds user expectations and that keeps customers coming back boosting client retention.
+Through the process there is a possibility of early defect detection therefore reducing development problems and costs.
+Improved reliability because carefully testing ensures software works as intended.
+Identifying potential risks early helps reduce their impact on the project.
+
+Challenges with QM:
+Tension between quality requirements balancing customer quality expectations with developer quality requirements for example maintainability and reusability
+Ambiguity in specifying quality requirements as some requirements are difficult to express unambiguously.
+Incomplete and inconsistent specifications: Software specs are often incomplete and inconsistent.
+
+Explain why program inspections are an effective technique for discovering errors in a program. What types of errors are unlikely to be
+discovered through inspections?
+Program Inspections for Error Discovery are an effective technique as it involves peer reviews to discover errors in code in an agile environment. They can use a checklist, formal or informal errors could be found.
+Errors that could be found:
+Syntax errors: Obvious mistakes like missing semicolons or parentheses.
+Logic errors: Flaws in program logic that lead to incorrect results.
+Interface errors: Issues related to interactions between component
+Runtime errors: These occur during program execution and may not be evident during static inspections.
+Performance-related issues: Inspections focus on correctness, not performance.
+Security vulnerabilities: Inspections may miss subtle security flaws.
+
+Why is it difficult to validate the relationships between internal product attributes and external attributes?
+
+internal product attributes describe the software products in a way that is dependent only on the product itself. The major reason for measuring internal product attributes is that, it will help monitor and control the products during development. The main internal product attributes include size and structure. Size can be measured statically without having to execute them. The size of the product tells us about the effort needed to create it. Similarly, the structure of the product plays an important role in designing the maintenance of the product.https://www.tutorialspoint.com/software_quality_management/software_quality_management_internal_product_attributes.html
+External product attributes are those that can be measured only with respect to its relation with the environment. For example: The total number of failures experienced by a user, the length of time it takes to search the database and retrieve information. The different external product attributes are usability, integrity, efficiency, testability, reusability, portability, and interoperability. These attributes describe not only the code but also the other documents that support the development effort.https://www.tutorialspoint.com/software_quality_management/software_quality_management_measurement.htm#
+with regard to the above definitions validating the relationship between the two can be challenging as measuring internal attributes can be easy compared to measuring external attributes for example it is difficult to measure user  satisfaction. There's  also often a time lag between changes in internal attributes and their impact on external attributes. For example, improving the structure of the product might not immediately translate to better user experience. The relationship between internal and external attributes depends on the specific context. A well-architected system might perform differently in different markets or user segments.

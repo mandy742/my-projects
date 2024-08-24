@@ -1,0 +1,36 @@
+Define each of the following terms:
+a)Data
+Data is raw facts that have not been processed to reveal its meaning. Data cannot be used to make a decision
+b)Field
+A field is a character or group of characters that have specific meaning. It is used to define and store data
+c)Record
+A record is a logically connected set of one or more fields that describes a person, place or thing
+d)File
+A file is a collection of related records
+
+2.What is a DBMS and what are its advantages?
+A DBMS is a collection of programs, which works to manage the database structure and control access to the data stored in the database.
+Advantages of DBMS
+1. Data Sharing - DBMS allows data sharing across multiple application and users enhancing productivity and collaboration.
+2. Improved data integration - with DBMS, you have access to well-managed and synchronized data. It makes data handling easier and provides an integrated view of how an organization operates.
+3. Minimised data inconsistencies - data inconsistency occurs when different versions of the same data appear in different places. A properly designed database greatly reduces the probability of data inconsistency through data normalisation ,which reduces redundancy and increases data integrity.
+4. Improved data access - a query is a specific request for data manipulation sent to the DBMS. The DBMS makes it
+possible to produce quick answers to spur-of-the-moment queries.
+5. Improved decision making - better quality information is generated due to better managed data and improved data
+access.
+6. Increased end-user productivity -the availability of data and the ability to transform data into usable information encourages end-users to make
+quicker and more informed decisions
+
+3.Explain the difference between data and information.
+Data is raw facts that have not been processed to reveal its meaning because of this it data cannot be used to make decision. Information is processed data to reveal its meaning and can be used to make decision
+
+4.What is metadata?
+Metadata is data about data
+
+5.Given the file below, answer the following questions:
+e)How many records does the file contain?
+records represent rows so there are 4
+
+f)How many fields are there per record?
+fields represents columns so there are 5
+

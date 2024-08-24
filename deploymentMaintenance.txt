@@ -1,0 +1,47 @@
+Do some research about the different approaches to deployment. What are the pros and cons of each? When would you use each approach?
+
+Big Bang Deployment:
+Big Bang Deployment is a deployment strategy in software development where all changes or updates to the software are deployed simultaneously, without any gradual or incremental steps. In this approach, the new version of the software is released all at once, replacing the existing version.(https://www.enov8.com/blog/deployment-strategies-compared-and-explained/)
+Pros: Simplicity – all changes are deployed at once, no need for incremental steps.
+Cons: High risk – errors can impact the entire system, causing disruptions.
+Use Case: Small or simple applications, but not recommended for large or complex systems.
+
+Blue/Green Deployments:
+Blue-Green Deployment is a deployment strategy in software development that allows for zero-downtime updates to a production environment. In this approach, two identical environments are maintained, one environment with the current version of the software (blue), and the other environment with the updated version (green). At any given time, only one environment is active and serving production traffic, while the other environment remains idle.(https://www.enov8.com/blog/deployment-strategies-compared-and-explained/)
+Pros: Zero-downtime deployment – new version is deployed without receiving traffic.
+Cons: Requires additional infrastructure (two identical environments).
+Use Case: Large-scale applications where minimizing downtime is critical.
+
+Rolling Deployments:
+Rolling Deployment is a software deployment strategy that involves gradually deploying updates to subsets of servers or instances in a controlled and sequential manner. In this strategy, each subset is validated before the next update is deployed.(https://www.enov8.com/blog/deployment-strategies-compared-and-explained/)
+Pros: Gradual rollout – updates are deployed incrementally across servers.
+Cons: Complexity – managing multiple versions simultaneously.
+Use Case: Applications with high availability requirements.
+
+Canary Patterns:
+Canary Deployment is a deployment strategy in software development that involves gradually rolling out updates to a small subset of users, also known as the “canary group”. In this approach, the updated version of the software is released to a small subset of users first, allowing developers to validate the update in a live production environment and monitor for any issues or errors.(https://www.enov8.com/blog/deployment-strategies-compared-and-explained/)
+Pros: Risk mitigation – gradual exposure to new features.
+Cons: Requires feature flagging and monitoring.
+Use Case: Testing new features or changes with a subset of users.
+
+Feature Flags / Toggles / Dark Launching:
+Feature Flags, aka Toggles, aka Dark Launching, is a deployment strategy in software development that involves releasing a new version of software alongside the existing version without any users being aware of the new version. The new version is deployed in a shadow or dark environment and receives live traffic from the existing environment without impacting users.(https://www.enov8.com/blog/deployment-strategies-compared-and-explained/)
+Pros: Zero impact on production – new version runs alongside existing one.
+Cons: Requires additional infrastructure for shadow traffic.
+Use Case: Validating performance and behavior of new code.
+
+●Answer the following scenarios:
+○A second-handbook shop is converting from a paper system to digital and they've asked you to develop their catalogue software.
+After finishing, how do you deploy it and why?
+First, ensure that the catalog software is fully developed, tested, and ready for production use. This includes implementing features like adding, viewing, and updating tasks, as well as handling errors gracefully.
+l would recommend Cloud Services as using cloud infrastructure has benefits such as scalability, reliability, and ease of management. Catalog Software can easily be accessed over the internet. Deploying on servers physically located within the bookstore provides more control but requires maintenance which is more costly
+
+○A large retail chain has asked you to develop a more modern set of tools for their use, including point-of-sale systems, stock records,
+and customer service systems. After finishing, how do you deploy it and why?
+Build the Software:
+First Develop the Point of Sale, stock management, and customer service applications and ensure they meet the retail chain’s requirements, including features like inventory tracking, sales processing, and customer support.
+l would recommend a hybrid approach. Use cloud platforms for scalability and reliability and on premise service to set up servers within the retail infrastructure.
+
+○You have developed an alternate fire alarm system for a large shopping centre. This system's reliability is of utmost importance.
+After finishing, how do you deploy it and why?
+Deploying a fire alarm system, especially one for a large shopping center, requires careful planning and execution therefore on-premises deployment would be the most suitable approach. Proper on premise  deployment ensures that the fire alarm system functions reliably when needed. It minimizes false alarms, reduces response time, and saves lives. Regular maintenance and updates maintain the system’s effectiveness over time.

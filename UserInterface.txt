@@ -1,0 +1,50 @@
+Do you think the website has a good UI? Discuss both he good and bad elements in the website’ sUI.
+Pros
+
+Keep it simple
+The website is simple there's no too much or less information
+
+Common UI Interface
+Contact details are available at the end of the page where most contact information is found. 
+There is also an arrow pointing where to type and a "Go" button which are commonly used.
+"For orders click here" situated at the bottom which is normally where one can find orders icon.
+
+Use of colors and textures
+Same background colour is used throughout the website 
+There's sufficient contrast between background and texts
+Company name is written in green for easy identification.
+
+Communicate
+When you click on one of the product there's enough information about the product, stock #, description and price.
+Information is available if a user wants to download a form
+Clear information is available about warranties, order cancellation, Refusal of shipment and delivery
+
+
+Cons
+"simply the best" can be a challenge to see for people with eyesight problems
+Font size of home accessory, equipment and parts must be increased for clear visibility
+Faxing your documents is an old method preferably scanning the documents
+The website does not look interesting and enticing for the user
+
+
+UCOOK website
+
+keep it simple
+Website is clear and simple
+
+Common UI Interface
+log in sign up options available where they are usually placed.
+Logo ucook placed at the top left corner where you would expect a website to be.
+Facebook, twitter, you tube, TikTok icons are the common icons associated with them.
+
+Use of colours and textures
+Background color white is bright enough and blends well with what the website does.
+Different colors for different icon makes it easy to identify.
+
+Communicate
+Provides advantages why you should order from them
+Reviews and FAQ available to get instant feedback from other customers
+Option of signing up for a newsletter to get more information.
+
+Cons
+There's too much information on one page.

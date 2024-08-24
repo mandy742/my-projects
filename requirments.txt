@@ -1,0 +1,21 @@
+Discuss any ambiguities or omissions in the statement of requirements for this part of a ticket issuing system.
+
+User Interaction
+with regard to user selection it does not specify how the user select their destination is it through buttons, manually enter their destination or they select from what the system displays. The requirements do not specify if the user select a wrong destination what happens or if nothing is selected are they able to go back to the main menu.
+The requirements do not specify how the credit card validation is checked...Is there a more detailed checklist available to check if the card is valid. If the card is not valid is the user notified and what other options does the user have besides credit card to make payments.
+The user is requested to input a personal identifier, its not clear if its a security check and how its validated.
+At the end of the process it does not tell how the ticket is issued is it printed or the user is sent an email or txt
+
+Write a set of non-functional requirements for the ticket-issuing system  above.
+Non-functional requirements are:
+Reliability
+System should be reliable and handle network errors or network overload with grace especially during peak hours it should be able to handle  network overload and be available without lagging
+Security
+The system should be secure enough to keep the credit card information safe. Unauthorized Personnel should not have access to credit card information. It should also be secure enough from hackers
+Performance
+After successful validation the system should issue ticket in less than seconds. Validation of the credit card should also be fast.
+Usability
+The system should be easy to navigate with clear instruction of what the user must do if one of the activities fails
+Scalability
+System must be able to handle multiple users at the same time. 
+

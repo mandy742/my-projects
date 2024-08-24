@@ -1,0 +1,54 @@
+Do some research to find real-world examples of when each architecture pattern would be most appropriate to use. Write down your examples, and state your reasons why each pattern would be most appropriate for each of the examples you found.
+
+1. Layered Architecture
+Layered Architecture separates all components into layers. Each layer only have access to a layer below and thus the system can be developed incrementally. It also means that the outer most layers are easily changed because only the inner layers need to interface
+with hardware or operating systems. Layered Architecture consists of 4 layers presentation, business, persistence, and database. Each layer has a designated purpose. The presentation layer is the user interface component, the business layer is responsible for aspects
+like user authentication or authorisation. The persistence layer deals with functional components, and the database layer is the back end component that contains the database. An example of Layered architecture l found is the Tesla Control module A control system for self- driving vehicles connects the different parts of the vehicle to a control module that corrects the direction of the driving, speed, and trajectory. The same system can be used if some parts of the car change with time, or can be used for different models of cars. Only one layer is modified.(www.tesla.com)
+
+2.Repository Architecture
+Repository Architecture is when all data is kept in a central repository and all components are separated they can, interact through the repository. This is a particularly useful pattern if you have a lot of data. An example of Repository Architecture l found is a librarian in a library. When a student wants a book, they don’t search through the entire library themselves. Instead, they ask the librarian (the repository) to find it. The librarian knows exactly where each book is located, whether it’s on a shelf, in the storeroom, or borrowed by someone else. The drawback is that the librarian is a single point of failure meaning if they are absent or sick it could impact the whole system
+
+3.CLIENT-SERVER ARCHITECTURE
+Client Server Architecture is a set of services developed to run on servers. The clients then access the servers over a network to make use of the system. The network usage allows multiple clients to access the servers at one time to access the services that the system provides. Real world example l found is  Web Browsing When one visit a website, your web browser acts as the client. It communicates with the website’s server to retrieve and display web page content.
+
+4.PIPE AND FILTER ARCHITECTURE
+In this pattern, the data provided goes through a series of transformations as it flows from one component to another. This pattern is particularly useful for data processing. Real world example is Applications like Adobe Photoshop that use filters for various image transformations like blurring, color correction. Each filter operates independently, enhancing scalability and reusability.
+
+Give two examples of systems combining two or more patterns, and explain how these patterns complement each other.
+An examples l found is Desktop Applications combining Layered Architecture with Repository Architecture:
+Layered Architecture will deal with:
+Presentation Layer: Graphical User Interface components allow users to interact with tasks.
+Business Layer: Handles task-related logic reminders, priority, categorization.
+Data Access Layer (Repository): Reads/writes tasks to a local file or database.
+Repository Pattern will deal with:
+The repository encapsulates file I/O or database access.
+Example: When a user edits a task, the business logic layer updates the repository.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+●Givetwoexamplesofsystemscombiningtwoormorepatterns,and
+explainhowthesepatternscomplementeachother.
+Completedthetask(s)?
+Askanexpertcodereviewertoreviewyourwork!
